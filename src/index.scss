@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply bg-[#222222] font-body;
+    @apply bg-[#222222] font-body p-5 text-white;
   }
 }
 
 @layer components {
   .page-container {
-    max-width: 1200px;
+    max-width: 2000px;
     @apply mx-auto;
   }
   .movie-list .swiper-slide {
