@@ -5,3 +5,7 @@ hooks:
   useState()
   useEffect()
   useDebounce()
+fragment
+router
+scss, tailwind
+fetchAPI
