@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#222222] font-body p-5 text-white;
+  }
+}
+
+@layer components {
+  .page-container {
+    max-width: 2000px;
+    @apply mx-auto;
+  }
+  .movie-list .swiper-slide {
+    width: 300px;
+    height: auto;
+  }
+  // .page-container-fluid {
+  //   max-width: 1440px;
+  //   @apply mx-auto;
+  // }
+  .banner .swiper {
+    height: 100%;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  .selected{
+    @apply text-primary
+  }
+}
